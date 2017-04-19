@@ -9,14 +9,6 @@
 	    	var slide = event.type === 'mouseenter' ? $('.name',this).slideDown() : $('.name',this).slideUp(1000);
 	    	$('.name',this).slide;
 	    });
-	// name.hide();
-	// square.hover(function () {
-	// 	$('.name',this).slideDown()
-	// 	})
-	// square.on('mouseleave',function () {
-	// 	$('.name',this).slideUp()
-	// })
-
 
 	// ==============================================================================================
 	//                                            Slider  ==================================================================================
@@ -42,4 +34,14 @@
 	// 		.prev().slideToggle(1500);
 	// },1800);
 	
+// ================================================= circle =============================================== //
+ $('#circle').circleProgress({
+    value: 0.75,
+    size: 170,
+    fill: {
+      color: ["red"]
+    },
+	startAngle:4.7
+  });
+
 })(jQuery);
