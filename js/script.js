@@ -35,13 +35,36 @@
 	// },1800);
 	
 // ================================================= circle =============================================== //
- $('#circle').circleProgress({
+ $('.circle').circleProgress({
     value: 0.75,
     size: 170,
     fill: {
-      color: ["red"]
+      color: ["#CA3C3C"]
     },
 	startAngle:4.7
   });
-
+$('#second').circleProgress({
+    value: 0.25,
+    size: 170,
+    fill: {
+      color: ["#CA3C3C"]
+    },
+	startAngle:4.7
+  });
+  $('#third').circleProgress({
+    value: 0.50,
+    size: 170,
+    fill: {
+      color: ["#CA3C3C"]
+    },
+	startAngle:4.7
+  });
+  $('forth').circleProgress({
+    value: 0.75,
+    size: 170,
+    fill: {
+      color: ["#CA3C3C"]
+    },
+	startAngle:4.7
+  });
 })(jQuery);
