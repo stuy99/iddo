@@ -147,9 +147,9 @@ video {
 .title {
 	position: absolute;
 	top: 260px; 
-	width: 1200px;
+	width: 1092px;
 	left: 50%;
-	margin-left: -600px;
+	margin-left: -546px;
 }
 
 .title h2 {
@@ -164,7 +164,7 @@ video {
 .title p {
 	color: #CA3C3C;
 	margin-top: 0;
-	float: left;
+	/*float: left;*/
 }
 
 .play {
@@ -846,25 +846,100 @@ footer a {
 	line-height: 1;
 }
 /*========================================= Media Queries ==================================================*/
-@media screen and (max-width: 958px){
-	.menu{
-		height: auto;
-	}
-	.menu li{
-		display: block;
-	}
+@media screen and (max-width: 1470px){
 	.video{
 		height: auto;
 	}
-	/*.title{
-		top: -315px;
-	}*/
+}
+@media screen and (max-width: 1125px){
+	.title{
+		width: 772px;
+		margin-left: -386px;
+		top: 203px;
+	}
 	.title h2{
-		font-size: 2.25em;
-		padding: 0;
-		margin: 0;
+		font-size: 3em;
+		margin-top: 15px;
 	}
 	.play{
-		font-size: 25px;
+		font-size: 2em;
+	}
+	.zoznam {
+    margin-left: 5.25em;
+	}
+}
+@media screen and (max-width: 958px){
+	.zoznam {
+    margin-left: 3.25em;
+	}
+}
+@media screen and (max-width: 830px){
+	.zoznam {
+    margin-left: 1.25em;
+	}
+}
+@media screen and (max-width: 800px){
+	.title{
+		width: 650px;
+		margin-left: -325px;
+		top: 162px;
+	}
+	.title h2{
+		font-size: 2.5em;
+		margin-top: 0;
+	}
+	.play{
+		font-size: 1.5em;
+		margin-right: 22px;
+	}
+	.menu{
+		height:100%;
+	}
+	.menu li {
+	display: block;
+	}
+	.logo {
+	float: none;
+	margin-left: 0;
+	padding-top: .5em;
+	font-size: 1.875em; /* 30/16 */
+	}
+	.zoznam {
+	padding-top: 0;
+	float: none;
+	margin-left: 0;
+	}
+	.sign {
+	float: none;
+	margin-bottom: 2em;
+	padding-top: 1em;
+}
+}
+@media screen and (max-width: 668px){
+	.title{
+		width: 516px;
+		margin-left: -258px;
+		top: 133px;
+	}
+	.title h2{
+		font-size: 2em;
+		margin-top: 0;
+	}
+	.play{
+		font-size: 1em;
+	}
+}
+@media screen and (max-width: 525px){
+	.title{
+		width: 516px;
+		margin-left: -195px;
+		top: 100px;
+	}
+	.title h2{
+		font-size: 1.5em;
+		margin-top: 0;
+	}
+	.play{
+		font-size: 1em;
 	}
 }
