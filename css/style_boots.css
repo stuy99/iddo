@@ -1,0 +1,560 @@
+.menu {
+    width: 100%;
+    background: #000000;
+    text-align: center;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    display: block;
+    position: relative;
+}
+.menu a{
+    color:white;
+}
+.sign a {
+    color: #CA3C3C;
+    border: 0.125em solid #CA3C3C;
+
+}
+/*=============================================================== Video block ======================================*/
+
+.video {
+    width: 100%;
+    height: 820px;
+    opacity: .8;
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    z-index: -2;
+}
+
+.title {
+    position: absolute;
+    top: 260px;
+    width: 1092px;
+    left: 50%;
+    margin-left: -546px;
+}
+
+.title h2 {
+    font-size: 4.25em;
+    /* 68/16 */
+    font-weight: lighter;
+    margin-bottom: 0;
+    margin-top: 30px;
+    color: white;
+    display: inline-block;
+}
+
+.title p {
+    color: #CA3C3C;
+    margin-top: 0;
+    /*float: left;*/
+}
+
+.play {
+    float: left;
+    position: relative;
+    margin-right: 41px;
+    /* 30/16 */
+    font-size: 3.2em;
+    /* 50/16 */
+    color: white;
+}
+
+/*=========================================================== Our Service ===================================================*/
+.our-services {
+    background: #CA3C3C;
+    width: 100%;
+    height: auto;
+    color: white;
+    margin: 0 auto;
+    /* padding-left: 20%; */
+}
+.our-services h1 {
+    font-size: 60px;
+    width: 350px;
+    color: white;
+    border-bottom: 10px solid white;
+    padding-top: 45px;
+    /* margin-right: 30px; */
+}
+.kart{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    padding: 45px 0 45px 0;
+}
+.fa-cloud,
+.fa-gavel {
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 32px;
+    height: 100px;
+    width: 100px;
+}
+
+.fa-bolt {
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 32px 41px;
+    height: 100px;
+    width: 100px;
+}
+
+.fa-cutlery {
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 32px 37px;
+    height: 100px;
+    width: 100px;
+}
+.text {
+    width: 280px;
+    height: 100px;
+    font-size: 14px;
+    position: relative;
+    top: 3px;
+    left: 38px;
+}
+/*========================================================= Services Icons ============================================*/
+.servis-icons {
+    background: white;
+    width: 100%;
+    height: 150px;
+    color: #CA3C3C;
+}
+.servis-icons i{
+    margin:0 auto;
+    margin-top: 66px;
+}
+/*======================================================== Our Works =====================================================*/
+
+.our-works {
+    background: #ebebeb;
+    max-height: auto;
+    position: relative;
+    padding-bottom: 6rem;
+}
+.our-works h1 {
+    font-size: 60px;
+    width: 370px;
+    color: black;
+    border-bottom: 10px solid black;
+    padding-top: 100px;
+    margin-left: 15px;
+}
+.buttons {
+    margin: 2.5em 0 2.875em 0.9375em;
+}
+.square {
+    /* width: 370px; */
+    /* height: 370px; */
+    background: #ccc;
+    margin: 15px;
+    /* float: left; */
+    /* position: relative; */
+}
+.name {
+    /* height: 80px; */
+    width: 100%;
+    background: grey;
+    position: absolute;
+    top: 33%;
+}
+
+.name h5 {
+    color: #CA3C3C;
+    text-align: center;
+}
+
+.name p {
+    text-align: center;
+    color: #ccc;
+    padding-bottom: 1rem;
+}
+
+.load-more {
+    color: #CA3C3C;
+    position: absolute;
+    top: 1225px;
+}
+/*==================================================== Testimonial ==================================================*/
+
+.testimonial {
+    width: 100%;
+    background: #666666;
+    height: 350px;
+    /*text-align: center;*/
+    color: white;
+    position: relative;
+    /*overflow: hidden;*/
+}
+.slide p {
+    width: 600px;
+    font-size: 26px;
+    font-weight: 100;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 90px;
+    
+}
+.slide img {
+    width: 72px;
+    height: 72px;
+    margin: 195px 47% 20px 47%;
+    border-radius: 50%;
+}
+#slider {
+    width: 100%;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+}
+/*=================================================== Our Team ==========================================================*/
+
+.our-team {
+    background: white;
+    height: 920px;
+    position: relative;
+    color: black;
+}
+.our-team h1 {
+    font-size: 60px;
+    width: 370px;
+    color: black;
+    border-bottom: 10px solid black;
+    padding-top: 100px;
+}
+.avatar {
+    background: #cccccc;
+    border-radius: 50%;
+    height: 170px;
+    width: 170px;
+    position: relative;
+}
+
+.soc-icon {
+    color: white;
+    position: relative;
+    float: right;
+    top: -64%;
+    left: -2%;
+}
+.redc {
+    background: #CA3C3C;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 17px;
+}
+.members {
+    position: relative;
+    /* float: left; */
+    width: 315px;
+    height: 170px;
+    margin-bottom: 50px;
+
+}
+.texta{
+    padding-left: 116px;
+}
+#load-more {
+    top: 900px;
+    position: absolute;
+    color: #CA3C3C;
+}
+/*================================================ Number ========================================================*/
+
+.number {
+    background: #666666;
+    height: 350px;
+    color: white;
+}
+
+.box {
+    position: relative;
+    width: 180px;
+    display: inline-block;
+    margin: 66px 35px 0 45px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.numb {
+    font-size: 35px;
+    font-weight: lighter;
+}
+/*================================================== Our Skills =========================================================*/
+
+.our-skills {
+    background-color: white;
+    height: 840px;
+}
+
+.our-skills h1 {
+    font-size: 60px;
+    width: 370px;
+    color: black;
+    border-bottom: 10px solid black;
+    padding-top: 100px;
+}
+/* .circles {
+    border: 8px solid #CA3C3C;
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    display: inline-block;
+} */
+.skills1 {
+    width: 770px;
+    position: relative;
+    float: left;
+    padding-top: 30px;
+}
+.circle {
+    width: 170px;
+    margin: 6px 6px 20px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    line-height: 1.2;
+}
+.circle strong {
+    position: absolute;
+    top: 66px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+    color: #CA3C3C;
+}
+#preview {
+    width: 770px;
+    padding-left: 100px;
+}
+.skills2 {
+    top: -200px;
+    position: relative;
+    width: 370px;
+    padding-left: 50px;
+}
+.skills2 .btn{
+    padding: 0;
+}
+.hlava{
+    background-color: rgba(0, 0, 0, 0);
+}
+/*==================================================== Ads ====================================*/
+
+.ads {
+    background: #CA3C3C;
+    height: 80px;
+    width: 100%;
+    font-size: 24px;
+}
+.ads button{
+    font-size: 14px;
+    color: #CA3C3C;
+    margin-top: 21px;
+    margin-right: 10%;
+}
+.ads p{
+    margin-top: 21px;
+    margin-left: 10%;
+}
+/*===================================================== Clients ==================================*/
+
+.clients {
+    width: 100%;
+    background: #7f7f7f;
+    height: 150px;
+}
+.clients .card{
+    background: #a6a6a6;
+    padding: 15px 26px;
+    margin: 25px;
+}
+/*============================================== Contact ============================================*/
+
+.contact {
+    background: #ebebeb;
+    height: 710px;
+    width: 100%;
+}
+.contact p {
+    color: #898989;
+}
+
+#socicon p {
+    color: #CA3C3C;
+}
+.contact h1 {
+    font-size: 60px;
+    width: 370px;
+    color: black;
+    border-bottom: 10px solid black;
+    padding-top: 100px;
+    margin-top: 0;
+}
+/*========================================================== Footer ===============================*/
+
+footer {
+    height: 175px;
+    width: 100%;
+    background: #252525;
+}
+.fa-angle-up {
+    color: #CA3C3C;
+}
+footer h2{
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+footer p{
+    margin: 0 auto;
+    color: #555;
+    text-align: center;
+}
+footer a {
+    margin: 0 auto;
+    display: block;
+    /* text-align: center; */
+}
+/*========================================= Media Queries ==================================================*/
+@media screen and (max-width: 1470px) {
+    .video {
+        height: auto;
+    }
+}
+@media screen and (max-width:1200px){
+    .kart {
+        padding: 45px 0 45px 0;
+        margin: 0 20% 0 15%;
+    }
+    .our-services h1{
+        margin-left: 15%;
+    }
+}
+@media screen and (max-width: 1125px) {
+    .title {
+        width: 772px;
+        margin-left: -386px;
+        top: 203px;
+    }
+
+    .title h2 {
+        font-size: 3em;
+        margin-top: 15px;
+    }
+
+    .play {
+        font-size: 2em;
+    }
+
+    .zoznam {
+        margin-left: 5.25em;
+    }
+}
+
+@media screen and (max-width: 958px) {
+    .zoznam {
+        margin-left: 3.25em;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .zoznam {
+        margin-left: 1.25em;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .title {
+        width: 650px;
+        margin-left: -325px;
+        top: 162px;
+    }
+
+    .title h2 {
+        font-size: 2.5em;
+        margin-top: 0;
+    }
+
+    .play {
+        font-size: 1.5em;
+        margin-right: 22px;
+    }
+
+    .menu {
+        height: 100%;
+    }
+
+    .menu li {
+        display: block;
+    }
+
+    .logo {
+        float: none;
+        margin-left: 0;
+        padding-top: .5em;
+        font-size: 1.875em;
+        /* 30/16 */
+    }
+
+    .zoznam {
+        padding-top: 0;
+        float: none;
+        margin-left: 0;
+    }
+
+    .sign {
+        float: none;
+        margin-bottom: 2em;
+        padding-top: 1em;
+    }
+}
+
+@media screen and (max-width: 668px) {
+    .title {
+        width: 516px;
+        margin-left: -258px;
+        top: 133px;
+    }
+
+    .title h2 {
+        font-size: 2em;
+        margin-top: 0;
+    }
+
+    .play {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .title {
+        width: 516px;
+        margin-left: -195px;
+        top: 100px;
+    }
+
+    .title h2 {
+        font-size: 1.5em;
+        margin-top: 0;
+    }
+
+    .play {
+        font-size: 1em;
+    }
+}
