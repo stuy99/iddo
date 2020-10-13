@@ -1,0 +1,9 @@
+.testemonial img {
+    border-radius: 50%;
+}
+.members{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    background-color: gainsboro;
+}
